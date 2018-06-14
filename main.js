@@ -8,7 +8,7 @@ let  iconPath= path.join(__dirname,pathIcone);
 let appIcon = null;
 let top = null;
 let child = null; 
-
+//////////////////////////////////////////////////////////////////////////
 app.on('ready', function() {
     top = new BrowserWindow({  icon: iconPath, kiosk: true, thickFrame :true, 
                                 backgroundColor: '#2e2c29'                            });
@@ -20,6 +20,7 @@ app.on('ready', function() {
     child.setMenuBarVisibility(false);
     child.on('resize', function() { 
        console.log(child.getBounds());
+
         }
     );
     
