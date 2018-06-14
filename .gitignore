@@ -1,0 +1,6 @@
+#le dossier archives
+archives/**/*
+#le dossier node_modules
+node_modules/**/*
+#le dossier 
+build*/**/*
