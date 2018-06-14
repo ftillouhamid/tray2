@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tray Tests</title>
+</head>
+<body>
+  <h4> main Window in kiosk mode </h4>
+  <div id='info'></div>
+   
+  <script>
+       document.getElementById('info').innerHTML = 
+    " <h4>Node version:"+  process.versions.node +" </h4>"+
+    " <h4>Electron version:"+  process.versions.electron +" </h4>"+
+    " <h4>Chrome version:"+  process.versions.chrome +" </h4>";
+  </script>
+</body>
+</html>

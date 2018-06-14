@@ -1,0 +1,21 @@
+{
+  "name": "tray",
+  "version": "1.0.0",
+  "description": "App sys tray et tests des windows ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/ftillouhamid/tray2",
+  "keywords": [
+    "Gestion Commerciale",
+    "Unimatel",
+    "Electron"
+    
+  ],
+  "author": "Hamid Ftullou",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  }
+}
